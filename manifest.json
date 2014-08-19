@@ -1,0 +1,19 @@
+{
+  "name": "CallMiner",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "CallMiner API Example Application",
+  "homepage_url": "http://callminer.com",
+  "icons": {
+    "16": "icons/icon_cm_16.png",
+    "48": "icons/icon_cm_48.png",
+    "128": "icons/icon_cm_128.png"
+  },
+  "options_page": "src/options_custom/index.html",
+  "permissions": [ "webRequest", "declarativeWebRequest", "\u003Call_urls>", "history", "background", "storage", "clipboardWrite" ],
+  "app": {
+      "launch": {
+         "local_path": "main.html"
+      }
+   }
+}

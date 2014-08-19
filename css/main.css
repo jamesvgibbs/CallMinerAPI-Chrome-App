@@ -1,0 +1,104 @@
+*  {
+  margin: 0;
+  padding: 0;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
+[hidden] { display: none; }
+
+ul, ol {
+    list-style: none;
+}
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+body {
+    background-color: #78a22f;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: x-small;
+    color: #666666;
+}
+
+a {
+    color: #004756;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 960px;
+}
+
+.callminer-logo {
+	display: inline-block;
+	text-indent: -999em;
+	background-image: url(../icons/callminer_black_18.png);
+	background-repeat: no-repeat;
+	width: 85px;
+	height: 18px;
+	background-position: right bottom;
+	margin: 0 5px;
+}
+	
+.logo {
+	width: 230px;
+	height: 65px;
+	background-position:20px top;
+	display: inline-block;
+	text-indent: -999em;
+	background-image: url(../icons/eureka_black_44.png);
+	background-repeat: no-repeat;
+	}
+	
+.claim {
+	font-family: 'Rancho', cursive;
+	font-weight: normal;
+}
+
+[role='header'] {
+    padding-top: 35px;
+    text-align: center;
+    background: #FFF;
+}
+	[role='header'] .claim {
+		font-size: 2em;
+		font-style: italic;
+		font-weight: normal;
+		margin-top: -20px;
+		padding-bottom: 35px;
+	}
+
+footer {
+    margin-top: 35px;
+    background: #5c6f7c;
+    text-align: center;
+}
+	footer > p {
+		margin-top: 2.6em;
+		background: #FFF;
+		padding: .8em 0;
+		color: #333333;
+		font-weight: bold;
+		font-size: 1.3em;
+	}
+
+.demo {
+	margin: 3em 0;
+	padding: 2.5em 0 2.5em;
+	background: #5c6f7c;
+}
+
+.gridster {
+	width: 960px;
+	margin: 0 auto;
+}
+	.gridster .gs-w {
+		background: #FFF;
+		cursor: pointer;
+		-webkit-box-shadow: 0 0 5px rgba(0,0,0,0.3);
+		box-shadow: 0 0 5px rgba(0,0,0,0.3);
+	}
+	
+	
